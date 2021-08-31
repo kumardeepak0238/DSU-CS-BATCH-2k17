@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+       function admission() {
+       document.getElementById("demo1").innerHTML = "Ms. Aneela Mansoor, Admissions Officer<br>Email: aneela.mansoor@dsu.edu.pk<br>Phone # 021-35244851-2<br>Cell # 0324-2444595";
+     }
+       function enrolment() {
+        document.getElementById("demo2").innerHTML = "Mrs. Arshia Haqqani, Office Supervisor<br>Email: arshia.haqqani@dsu.edu.pk<br>Phone # 021-35244858";
+       }
+       function academics()
+       {
+        document.getElementById("demo3").innerHTML="HoD (Computer Science)<br>Dr. Muhammad Mobeen Movania<br>Email: mobeen.movania@dsu.edu.pk<br>Phone # 021-35244864";
+       }
+       function it()
+       {
+        document.getElementById("demo4").innerHTML="Engr. Muhammad Immad Uddin, Manager IT <br>(Systems)<br>Email: mit.sys@dsu.edu.pk<br>Phone # 021-35244873<br>Cell # 0300-5512133";
+       }
+       function maintenance()
+       {
+        document.getElementById("demo5").innerHTML="Mr. Sarwar Viqar Naqvi, Maintenance Officer<br>Email: sarwar.viqar@dsu.edu.pk<br>Phone # 021-35244872<br>Cell # 0332-7346775";
+       }
+       function marketing()
+       {
+        document.getElementById("demo6").innerHTML="Ms. Saima Sardar Khan, Manager Marketing<br>Email: saima@dsu.edu.pk<br>Phone # 021-35244871";
+       }
+       function procurement()
+       {
+        document.getElementById("demo7").innerHTML="Mr. Sarwar Viqar Naqvi, Procurement Officer<br>Email: sarwar.viqar@dsu.edu.pk<br>Phone # 021-35244872<br>Cell # 0332-7346775";
+       }
+        function vc()
+       {
+        document.getElementById("demo10").innerHTML="Engr. Prof. Dr. Sarfraz Hussain TI(M) SI(M)<br>Email: vc@dsu.edu.pk<br>Phone # 021-35244875<br>Cell # 0346-2321110";
+       }
+        function dean()
+       {
+        document.getElementById("demo11").innerHTML="Engr. Prof. Dr. Johar Khurshid Farooqi<br>Email: dean.eas@dsu.edu.pk<br>Phone # 021-35244862<br>Cell # 0300-2595782 (PA to Dean)";
+       }
+        function registrar()
+       {
+        document.getElementById("demo12").innerHTML="Brig. (R) Syed Muhammad Rafique Ahmad<br>Email: registrar@dsu.edu.pk<br>Phone # 021-35244866<br>Cell # 0300-9250740";
+       }
+
+</script>
+  </head>
+  <body style="background-image: url(./img/bg.jpg);">
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">DHA SUFFA CS</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li  class="current"><a href="services.html">Contact us</a></li>
+            <li><a href="http://lms.dsu.edu.pk/">LMS</a></li>
+            <li><a href="http://www.dsu.edu.pk/index.php/en/">DSU</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          
+          <ul id="services">
+            <li>
+              <h2 style="font-size: 30px; color: white;">Admissions</h2>
+               <button id="demo1" style="font-size: 15px" type="button" onclick="admission()">View Details</button>
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Enrollment & Registration</h2>
+              <button id="demo2" style="font-size: 15px" type="button" onclick="enrolment()">View Details</button>
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Academics</h2>
+              <button id="demo3" style="font-size: 15px" type="button" onclick="academics()">View Details</button>
+				
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">IT</h2>
+              <button id="demo4" style="font-size: 15px" type="button" onclick="it()">View Details</button>
+              
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Maintenance</h2>
+              <button id="demo5" style="font-size: 15px" type="button" onclick="maintenance()">View Details</button>
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Marketing</h2>
+              <button id="demo6" style="font-size: 15px" type="button" onclick="marketing()">View Details</button>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <ul id="services">
+            <li>
+              <h2 style="font-size: 30px; color: white;">Vice Chancellor</h2>
+               <button id="demo10" style="font-size: 15px" type="button" onclick="vc()">View Details</button>
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Dean</h2>
+              <button id="demo11" style="font-size: 15px" type="button" onclick="dean()">View Details</button>
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Registrar</h2>
+              <button id="demo12" style="font-size: 15px" type="button" onclick="registrar()">View Details</button>
+            </li>
+            <li>
+              <h2 style="font-size: 30px; color: white;">Procurement</h2>
+              <button id="demo7" style="font-size: 15px" type="button" onclick="procurement()">View Details</button>
+            </li>
+            </ul>
+        </article>
+        </aside>
+      </div>
+    </section>
+  
+     <footer style="background-color: #3C4855">
+      <p> Copyright &copy; DHA SUFFA UNIVERSITY</p>
+    </footer>
+  </body>
+</html>
